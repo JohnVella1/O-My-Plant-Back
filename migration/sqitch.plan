@@ -1,0 +1,9 @@
+%syntax-version=1.0.0
+%project=omyplant
+
+regex 2022-02-04T09:38:09Z DylanPdr <dylan.pdr69@gmail.com> # regex
+init 2022-01-20T14:25:21Z DylanPdr <dylan.pdr69@gmail.com> # Création de la table
+functionMember 2022-01-20T14:32:37Z DylanPdr <dylan.pdr69@gmail.com> # Fonction pour les membres
+functionPlantMember 2022-01-27T13:56:08Z DylanPdr <dylan.pdr69@gmail.com> # Fonction pour les plantes de l'utilisateur
+functionPlantDb 2022-01-27T13:56:36Z DylanPdr <dylan.pdr69@gmail.com> # Fonction pour les plantes de de la table plant_db
+

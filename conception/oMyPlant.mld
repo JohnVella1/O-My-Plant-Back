@@ -1,0 +1,7 @@
+user (id SERIAL, pseudo TEXT UNIQUE NOT NULL, nom TEXT, prénom TEXT, date de naissance DATE, téléphone INT, mail TEXT UNIQUE NOT NULL, mot de passe TEXT NOT NULL, photo de profil TEXT, bio TEXT, compteur INT, niveau TEXT, rôle TEXT)
+
+jardin (id SERIAL, nom commun TEXT NOT NULL, surnom TEXT, photo TEXT NOT NULL, description TEXT NOT NULL, périodicité arrosage TEXT NOT NULL, nombre de fois INT NOT NULL, rempotage TEXT, taillage TEXT, emplacement TEXT, exposition TEXT, #user_id INT)
+
+plante (id SERIAL, photo TEXT NOT NULL, description TEXT NOT NULL, périodicité arrosage TEXT NOT NULL, nombre de fois INT NOT NULL, date ajout TIMESTAMPTZ, #user_id)
+
+jardin_has_plante (#jardin_id INT, #plante_id INT)
